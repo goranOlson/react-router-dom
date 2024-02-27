@@ -1,9 +1,15 @@
-import React from "react";
+// import React from "react";
 
-type Props = {};
-
-const SearchPage = () => {
-  return <h1>This is our search page</h1>;
+type Props = {
+  query: string;
 };
 
-export default SearchPage;
+export const SearchPage = (props: Props) => {
+  console.log('props: ', props);
+  return (
+    <>
+      <h2>This is our search page</h2>
+      <p>Search: { props.query }</p>
+    </>
+  )
+};

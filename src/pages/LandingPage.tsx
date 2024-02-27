@@ -16,7 +16,7 @@ export function LandingPage(): JSX.Element {
       <section>
         <h2>You random beer of the day!</h2>
         <article className="random-beer">
-          <div className="loader"></div>
+          {/* <div className="loader"></div> */}
           <h1>{beer}</h1>
         </article>
       </section>
@@ -26,3 +26,4 @@ export function LandingPage(): JSX.Element {
     </>
   );
 }
+
