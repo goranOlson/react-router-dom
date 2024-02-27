@@ -5,7 +5,8 @@ type Props = {
 };
 
 export const SearchPage = (props: Props) => {
-  console.log('props: ', props);
+  // console.log('props: ', props);
+  
   return (
     <>
       <h2>This is our search page</h2>
