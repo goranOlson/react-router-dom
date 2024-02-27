@@ -1,4 +1,32 @@
-# React + TypeScript + Vite
+# React router
+
+This is an example of how to use routing in `React`. In the example we use `Typescript` and `SCSS`.
+
+## How to run this project
+
+To run this project, run this commands in your terminal window.
+
+Import all dependencies
+```
+$ npm install
+```
+
+Install react routing components
+```
+$ npm install react-router-dom
+```
+
+
+Run your project
+```
+$ npm run dev
+```
+
+
+
+
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
